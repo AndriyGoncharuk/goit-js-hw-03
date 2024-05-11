@@ -1,8 +1,8 @@
 function filterArray(numbers, value) {
     let total = [];
-    for (let i = numbers[0]; i <= numbers.length; i++) {
-        if (i  > value) {
-            total.push(i);
+    for (let i = 0; i <= numbers.length; i++) {
+        if (numbers[i]  > value) {
+            total.push(numbers[i]);
         }     
     }
     return total;
